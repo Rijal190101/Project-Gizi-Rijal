@@ -1,0 +1,59 @@
+body {
+  font-family: "Nunito Sans", sans-serif; /* Contoh font modern dan menarik */
+  line-height: 1.7;
+  margin: 30px;
+  background-color: #f4f9f4; /* Latar belakang hijau muda yang segar */
+  color: #4a4a4a; /* Warna teks abu-abu gelap yang nyaman dibaca */
+}
+
+h1 {
+  font-family: "Playfair Display", serif; /* Font serif yang elegan untuk judul */
+  font-size: 2.8em;
+  color: #2e8b57; /* Warna hijau tua yang menarik */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif; /* Font sans-serif yang bersih untuk subjudul */
+  font-size: 2em;
+  color: #3cb371; /* Warna hijau sedang yang cerah */
+  margin-top: 35px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #8fbc8f; /* Garis bawah hijau muda yang lembut */
+  padding-bottom: 8px;
+}
+
+img {
+  display: block; /* Membuat gambar menjadi blok elemen */
+  margin: 20px auto; /* Memberikan margin atas bawah dan auto untuk tengah horizontal */
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Menjaga aspek rasio gambar */
+  border-radius: 10px; /* Membuat sudut gambar menjadi sedikit melengkung */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan tipis */
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 25px;
+}
+
+ol li {
+  margin-bottom: 12px;
+  color: #556b2f; /* Warna teks hijau tua untuk list */
+  font-size: 1.1em; /* Sedikit lebih besar untuk keterbacaan */
+}
+
+ol li::marker {
+  color: #3cb371; /* Warna penanda list yang cerah */
+  font-weight: bold;
+}
+
+/* Efek hover untuk list */
+ol li:hover {
+  background-color: #e0eee0; /* Warna latar belakang saat dihover */
+  padding: 10px;
+  border-radius: 7px;
+  transform: translateX(5px); /* Efek geser tipis saat dihover */
+  transition: transform 0.2s ease-in-out; /* Animasi transisi */
+}
